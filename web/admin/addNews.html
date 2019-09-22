@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加新闻</title>
+</head>
+<script type="text/javascript" src="/js/jquery-1.8.3.js"></script>
+<body background="pic/ManBgroud.gif">
+<h2 style="text-align: center">添加新闻</h2><br><br>
+<form action="AddNewsServlet" enctype="multipart/form-data" method="post" style="text-align: center">
+    请选择主题：
+    <select name="topicid" id="topicid">
+    </select>
+
+    <br><br>
+    请输入新闻标题：<input type="text" name="title"><br><br>
+    请输入新闻内容：<input type="text" name="content"><br><br>
+    　　请选择图片：<input type="file" name="pic"><br><br>
+    <input type="submit" value="确认添加">
+</form>
+</body>
+<script>
+    $(function () {
+        var getTopic = function () {
+            $.ajax({
+                url: "SelectTopicServlet",
+                type: "POST",
+                dataType:"JSON",
+                success: function (data) {
+                    $.each(data.topicList, function (index, topic) {
+                        console.log(topic.name);
+                        var $option = "<option value='" + topic.id + "'>" + topic.name + "</option>"
+                        $("#topicid").append($option);
+                    })
+                }
+            });
+        }
+        getTopic();
+    })
+</script>
+</html>
