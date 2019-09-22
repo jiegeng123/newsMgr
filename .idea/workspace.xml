@@ -22,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/front/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2573">
-              <caret line="156" column="18" lean-forward="true" selection-start-line="156" selection-start-column="18" selection-end-line="156" selection-end-column="18" />
+            <state relative-caret-position="275">
+              <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -46,6 +46,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -58,7 +61,6 @@
         <option value="$PROJECT_DIR$/src/frontServlet/CenterNewsServlet.java" />
         <option value="$PROJECT_DIR$/src/entity/News.java" />
         <option value="$PROJECT_DIR$/src/Dao/impl/NewsDao.java" />
-        <option value="$PROJECT_DIR$/web/front/index.jsp" />
         <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/web/admin/addNews.html" />
         <option value="$PROJECT_DIR$/web/admin/addTopic.html" />
@@ -67,6 +69,7 @@
         <option value="$PROJECT_DIR$/web/admin/left.html" />
         <option value="$PROJECT_DIR$/src/adminServlet/AdminLoginServlet.java" />
         <option value="$PROJECT_DIR$/src/util/BaseDB.java" />
+        <option value="$PROJECT_DIR$/web/front/index.jsp" />
       </list>
     </option>
   </component>
@@ -83,6 +86,7 @@
     <option name="width" value="1745" />
     <option name="height" value="980" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -139,6 +143,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
@@ -280,12 +285,12 @@
       <updated>1569120406610</updated>
       <workItem from="1569120408511" duration="5299000" />
       <workItem from="1569125862556" duration="2744000" />
-      <workItem from="1569129962252" duration="2278000" />
+      <workItem from="1569129962252" duration="2349000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10321000" />
+    <option name="totallyTimeSpent" value="10392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
@@ -580,8 +585,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/front/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2573">
-          <caret line="156" column="18" lean-forward="true" selection-start-line="156" selection-start-column="18" selection-end-line="156" selection-end-column="18" />
+        <state relative-caret-position="275">
+          <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
         </state>
       </provider>
     </entry>

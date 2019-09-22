@@ -50,6 +50,7 @@
 </head>
 <script type="text/javascript" src="/js/jquery-1.8.3.js"></script>
 <body>
+<div>新闻管理系统</div>
 <div id="header">
     <div id="top_login">
         <a href="UserExitServlet">退出登录</a>
